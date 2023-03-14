@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.gov.sp.fatec.springlabiv20231.entity.Usuario;
+import br.gov.sp.fatec.springlabiv20231.exception.UsuarioNaoEncontradoException;
 import br.gov.sp.fatec.springlabiv20231.repository.UsuarioRepository;
 
 @Service
